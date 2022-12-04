@@ -1,14 +1,16 @@
+
 main{
   display: flex;
   justify-content: center;
   align-items:center;
-  width: 100%;
+  width: 90%;
   height: 100px;
 }
 
 main h1{
   font-weight: bold;
-  width: 80%;
+  width: 90%;
+  padding-left: 30px;
 }
 
 main span{
@@ -16,7 +18,7 @@ main span{
 }
 main ul {
   display: flex;
-  width: 13%;
+  width:17%;
   list-style: none;
   text-decoration: none;
   justify-content: space-between;
@@ -29,6 +31,7 @@ main ul li a{
   align-items: center;
   font-weight: 500;
   font-size: 19px;
+  color: black;
 }
 main ul li a:hover{
   color: blueviolet ;
@@ -82,7 +85,7 @@ main ul li a:hover{
 
 input{
   border: none;
-  padding: 25px;
+  padding: 20px;
   width: 80%;
   font-size: 18px;
 }
@@ -120,7 +123,7 @@ input:active{
   display: flex;
   justify-content: start;
   align-items:center;
-  transform: translateY(10vh);
+  transform: translateY(7vh);
  
 }
 .digtle-name  a{
